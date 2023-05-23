@@ -1,0 +1,29 @@
+{
+  "name": "tree-node-lib",
+  "version": "1.0.1",
+  "source": "src/lib.ts",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "description": "node tree handle",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "test": "jest --verbose"
+  },
+  "keywords": [
+    "tree",
+    "node",
+    "ts"
+  ],
+  "devDependencies": {
+    "@parcel/packager-ts": "2.8.3",
+    "@parcel/transformer-typescript-types": "2.8.3",
+    "@types/jest": "^29.5.1",
+    "jest": "^29.5.0",
+    "parcel": "latest",
+    "ts-jest": "^29.1.0",
+    "typescript": ">=3.0.0"
+  }
+}
